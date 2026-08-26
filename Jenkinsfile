@@ -1,7 +1,7 @@
 pipeline {
         agent any
         stages {
-          stage('stage`')
+          stage('stage')
             steps (sh 'touch jenkins.txt')
         }
 
