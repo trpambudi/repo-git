@@ -6,7 +6,7 @@ pipeline {
         }
 
         stage('stage2') {
-          step {sh 'touch jenkins2.txt'}
+          steps {sh 'touch jenkins2.txt'}
         }
 
         stage('stage') {
